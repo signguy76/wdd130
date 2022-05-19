@@ -1,0 +1,23 @@
+.desk {
+    width: 315px;    
+    margin: 30px 30px;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+
+.graphic {
+    width: 315px;    
+    margin: 30px 30px;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+
+.man {
+    width: 315px;    
+    margin: 30px 30px;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+div {
+    background-color: gray;
+}
