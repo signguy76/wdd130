@@ -1,17 +1,27 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Heebo&family=Hind+Madurai&family=Montserrat:wght@200&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
 .home-title {
+    font-family: Bungee;
     text-align: center;
     background-color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 
 body {
-    background-color: tan; 
+    font-family: "Heebo", "hind Maduri", "Montserrat" ;
+    background-color: #fcfbfb; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -22,6 +32,7 @@ nav a {
     text-decoration: none;
     background-color: azure;
     color: black;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -34,25 +45,27 @@ nav a:hover {
     height: 725px;
 }
 
-.book {
+.book, .join {
     background-color: white;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: white;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
 }
 
-.join {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
 
 .book:hover{
     background-color: red;
@@ -66,10 +79,13 @@ nav a:hover {
 
 .msg {
     background-color: rgba(20,30,13, .7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
 }
 
 footer h3 {
@@ -94,6 +110,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -106,4 +123,26 @@ footer a:hover {
 
 main section{
     text-align: center;
+    box-sizing: border-box;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.card-img{
+    padding:10px;
+    background-color: tan;
+}
+
+
+.rivers-card, .camping-card, .rapids-card{
+    border: 10px;
+    
+} 
+
+
+
+.card-image{
+    margin: 10px;
 }
