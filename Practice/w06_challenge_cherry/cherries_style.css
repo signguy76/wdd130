@@ -1,0 +1,50 @@
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tart {
+    font-size: 100px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 80px;
+    z-index: 1;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.tart {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 150px;
+    font-size: 180px;
+    text-align: center;
+    z-index: 1;
+
+
+}
+
+img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
