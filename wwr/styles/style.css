@@ -121,6 +121,7 @@ footer a:hover {
     text-align: center;
 }
 
+
 main section{
     text-align: center;
     box-sizing: border-box;
@@ -137,7 +138,7 @@ main section{
 
 
 .rivers-card, .camping-card, .rapids-card{
-    border: 10px;
+    margin: 200px 0;
     
 } 
 
@@ -145,4 +146,8 @@ main section{
 
 .card-image{
     margin: 10px;
+}
+
+.button-box{
+    text-align: center;
 }
