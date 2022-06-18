@@ -202,9 +202,6 @@ main section{
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
-salmon-para{
-    grid-column: 2/3;
-    grid-row: 1/2     
 }
 
 .mountains {
@@ -212,25 +209,85 @@ salmon-para{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.rivers-grid{
+
+.rivers-salmon{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px 400px 400px;
 }
 
 .salmon-img{
     grid-column: 1/2;
     grid-row: 1/2;
+    margin: auto;
+    align-items: center;
+}
+.salmon-para{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 10px;    
+}
+
+.salmon-head{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    margin-top: 100px;
+}
+.desolation-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .desolation-img{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
+    margin: auto;
 }
-
+.desolation-para{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.desolation-head{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    margin-top: 5px;
+}
+.grand-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grand-canyon-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+}
+.grand-canyon-head{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    margin-top: 30px;
+}
+.grand-canyon-para{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.button-box-2{
+    text-align: center;
+    grid-column: 1/4;
+    padding: 50px;
+    background-color: bisque;
+}
+.top-title{
+    color: blue;
+    text-align: center;
+}
 
 .button-box{
     text-align: center;
 }
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
