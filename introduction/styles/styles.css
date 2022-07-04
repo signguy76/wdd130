@@ -1,1 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Merriweather+Sans:wght@300&family=Source+Sans+Pro&display=swap');
 
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #423E3B;
+}
+.logo{
+    width: 160px;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+nav a {
+    color: black;
+    font-family: merriweather sans;
+    text-align: center;
+    background-color: #FBFFF1;
+    padding: 30px;
+    align-content: center;
+    float: right;
+    margin-top: 9px;
+}
+.bld-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: #FBFFF1;
+}
+.home-title{
+    font-family: Kdam Thmor Pro;
+    text-align: center;
+    font-size: 2em;
+    grid-column: 1/10;
+}
+
+.storefront{
+    grid-column: 6/8;
+    grid-row: 2/3;
+    width: 500px;
+    padding: 15px;
+    background-color: #B4C5E4;
+}
+h1 {
+    grid-column: 2/6;
+    background-color: #FBFFF1;
+}
+.glass-building {
+    width: 500px;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    padding: 15px;
+    background-color: #B4C5E4;
+    margin-left: 100px;
+}
+.hand-card {
+    padding: 15px;
+}
+.websize {
+    grid-column:3/9;
+    grid-row: 3/4;
+    font-family: merriweather sans;
+    background-color: #B4C5E4;
+    font-size: 2em;
+}
+.web-pages {
+    width: 400px;
+    grid-column: 4/6;
+    grid-row: 4;
+    padding: 15px;
+    border-radius: 5%;
+    background-color: #423E3B;
+}
+.website-pic {
+    grid-row: 4;
+    grid-column: 5/7;
+    width: 800PX;
+}
+
+.how-works {
+    grid-row: 5;
+    grid-column: 3/9;
+    background-color: #B4C5E4;
+    font-family: merriweather sans;
+    font-size: 2em;
+}
+footer {
+    width: 1600px;
+    background-color: #423E3B;
+    margin: auto;
+}
+footer a {
+    color: white;
+}
+footer p {
+    color: white;
+    height: 25px;
+    width: 80%;
+}
+.how-to {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #FBFFF1;
+}
+.hand-card {
+    width: 400px;
+    grid-column: 1/6;
+    margin: auto;
+}
+.how-text {
+    grid-column: 1/5;
+    grid-row: 2;
+    background-color: #B4C5E4;
+    font-size: 2em;
+    font-family: merriweather sans;
+}
+.bus-card-pic {
+    grid-column: 1/6;
+    grid-row: 3;
+    width: 600px;
+    margin: auto;
+}
+.bus-card-text {
+    grid-column: 1/5;
+    grid-row: 4;
+    font-size: 2em;
+    background-color: #B4C5E4;
+    font-family: merriweather sans;
+}
+
+h2 {
+    font-family: Kdam Thmor Pro;
+}
+main p {
+    font-family: merriweather sans;
+    grid-column: 2/4;
+    font-size: 1.5em;
+}
+.faq-image {
+    padding: 15px;
+}
+.close {
+    font-family: Kdam Thmor Pro;
+    text-align: center;
+    font-size: 2em;
+    grid-column: 1/2;
+}
+.call {
+    grid-column: 2/5;
+}
