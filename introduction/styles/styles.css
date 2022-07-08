@@ -83,7 +83,7 @@ h1 {
 
 .how-works {
     grid-row: 5;
-    grid-column: 1;
+    grid-column: 1/4;
     background-color: #B4C5E4;
     font-family: merriweather sans;
     font-size: 2em;
