@@ -112,6 +112,9 @@ footer p {
     width: 400px;
     grid-column: 1/6;
     margin: auto;
+    padding: 15px;
+    background-color: #B4C5E4;
+    margin-top: 25px;
 }
 .how-text {
     grid-column: 1/5;
@@ -121,10 +124,19 @@ footer p {
     font-family: merriweather sans;
 }
 .bus-card-pic {
-    grid-column: 1/6;
+    grid-column: 2;
     grid-row: 3;
     width: 600px;
     margin: auto;
+    margin-right: 100px;
+    padding: 20px;
+}
+.qr-code {
+    grid-column: 3;
+    width: 400px;
+    padding: 20px;
+    margin-top: 75px;
+    margin-left: 100px;
 }
 .bus-card-text {
     grid-column: 1/5;
