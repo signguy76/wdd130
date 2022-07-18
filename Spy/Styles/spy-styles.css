@@ -1,0 +1,32 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.head {
+    background-color: royalblue;
+}
+
+.meg-title {
+    font-size: 4em;
+    text-align: center;
+}
+.spyglass-girl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c0d7cf;
+}
+.spy-banner {
+    background-color: #c0d7cf;
+    margin: auto;
+}
+.code-chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10PX;
+    width: 800px;
+}
+.code {
+    text-align: center;
+}
