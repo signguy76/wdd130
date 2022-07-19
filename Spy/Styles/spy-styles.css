@@ -37,7 +37,31 @@
     margin-left: auto;
     margin-right: auto;
     background-color: crimson;
+    width: 900px;
 }
 .assignment {
     background-color: crimson;
+}
+.warning {
+    text-align: center;
+    font-size: 2em;
+}
+.warn {
+    text-align: center;
+    color: red;
+}
+.qr {
+    display: block;
+    padding: 50px;
+    background-color: #c0d7cf;
+}
+.qr2 {
+    display: block;
+    padding: 50px;
+    background-color: #c0d7cf;
+}
+.dunkin {
+    padding: 30px;
+    background-color: #c0d7cf;
+    width: 600px;
 }
